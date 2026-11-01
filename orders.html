@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Set the browser tab title for the Custom Orders page -->
+    <title>Custom Cake Orders | Baked by K</title>
+
+    <!-- Describe the custom baking service for search engines -->
+    <meta name="description" content="Request a custom cake or sweet treat from Baked by K for birthdays, weddings, baby showers, graduations and other special occasions.">
+
+    <!-- Help the website display correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link the website's CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+
+<!-- Main navigation links to all website pages -->
+
+        <nav>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="products.html">products</a>
+            <a href="offers.html">special offers</a>
+            <a href="orders.html">custom orders</a>
+            <a href="contact.html">contact</a>
+            
+        </nav>
+
+    <!-- Main content explaining the custom ordering process -->   
+        <main class="orders-page">
+            <h1>Custom orders</h1>
+            <img src="images/26 image.jpg"alt="Baked by K" class="order-main-picture">
+
+<p>
+Have a special celebration coming up? Let Baked by K create the perfect cake or sweet treats just for you! We bake custom cakes for birthdays, weddings, baby showers, graduations, anniversaries, and many other special occasions.
+</p>
+
+<h2>How to Order</h2>
+
+<ol>
+    <li>Decide what type of order you would like.</li>
+    <li>Choose your flavour, size, and design.</li>
+    <li>Fill in the Request a Quote form below.</li>
+    <li>Confirm your collection or delivery date.</li>
+    <li>Enjoy your freshly baked order!</li>
+</ol>
+
+<h2>Request a Quote</h2>
+
+<form id="orderForm">
+<!-- Full name is required -->
+<label>Full Name:</label><br>
+<input type="text" name="fullname" required><br><br>
+
+<!-- A valid email address is required -->
+<label>Email Address:</label><br>
+<input type="email" name="email" required><br><br>
+
+<!-- Phone number is required -->
+<label>Phone Number:</label><br>
+<input type="tel" name="phone" required><br><br>
+
+<!-- Event date is required -->
+<label>Event Date:</label><br>
+<input type="date" name="eventDate" required><br><br>
+
+<!-- Display the estimated preparation time -->
+<p id="etaMessage"></p>
+
+ <!-- Customer must choose an order type -->
+<label>Type of Order:</label><br>
+<select name="orderType" required>
+<option value="">Choose an order type</option>
+<option>Birthday Cake</option>
+<option>Wedding Cake</option>
+<option>Baby Shower Cake</option>
+<option>Cupcakes</option>
+<option>Cookies</option>
+<option>Dessert Box</option>
+</select><br><br>
+
+<!-- Details about the order are required -->
+<label>Tell us about your order:</label><br>
+<textarea name="orderDetails" rows="5" cols="40" required></textarea><br><br>
+
+<!-- Submit the form -->
+<input type="submit" value="Submit">
+
+<!-- Display JavaScript validation messages here -->
+<p id="formMessage"></p>
+
+</form>
+
+<p><strong>Please Note:</strong> Custom orders should be placed at least 5–7 days in advance. Large orders should be placed at least 2 weeks before the event.</p>
+<p></p>
+
+<h4>Thank you for visiting</h4>
+            <p>Explore other pages using the navigation bar above to discover our contact information</p>
+            <hr>
+
+            <!--footer-->
+            <footer>
+                <p>&copy;2026 Baked by K.All Rights Reserved.</p>
+            </footer>
+
+              <!-- Link to the JavaScript file -->
+            <script src="script.js"></script>
+
+       <!-- Baked by K Chatbot -->
+
+<div id="chatbot">
+
+    <button id="chatButton">💬 Chat with us</button>
+
+    <div id="chatWindow">
+
+        <div id="chatHeader">
+            <h3>Baked by K Chat</h3>
+            <button id="closeChat">X</button>
+        </div>
+
+        <div id="chatMessages">
+            <p>Hello! 👋 Welcome to Baked by K.
+            How can we help you today?</p>
+        </div>
+
+        <div id="chatQuestions">
+
+            <button class="chatQuestion">What cakes do you offer?</button>
+
+            <button class="chatQuestion">How do I place an order?</button>
+
+            <button class="chatQuestion">How much do your cakes cost?</button>
+
+            <button class="chatQuestion">How far in advance should I order?</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Floating Hearts Animation -->
+
+<div class="floating-hearts">
+    <span>💕</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>💗</span>
+</div>
+    </body>
+</html>   

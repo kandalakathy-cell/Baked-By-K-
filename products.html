@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- Set the browser tab title for the Products page -->
+    <title>Our Products | Cakes, Cupcakes and Cookies | Baked by K</title>
+
+    <!-- Describe the bakery products for search engines -->
+    <meta name="description" content="Explore Baked by K's selection of birthday cakes, cupcakes, cookies and delicious desserts for celebrations and special occasions.">
+
+    <!-- Help the website display correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link the website's CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+     <!-- Main navigation links to all website pages -->
+        <nav>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="products.html">products</a>
+            <a href="offers.html">special offers</a>
+            <a href="orders.html">custom orders</a>
+            <a href="contact.html">contact</a>
+            
+        </nav>
+
+       <!-- Main product page content and bakery product search -->
+
+        <main class="products-page">
+            <h1>Our Products</h1>
+        
+
+<!-- Introduce the bakery's collection of cakes, cupcakes and cookies -->
+<h3>🧁 Find Your Sweet Treat! 🍰</h3>
+
+<label for="productSearch">Search our bakery:</label><br>
+
+<input
+    type="text"
+    id="productSearch"
+    placeholder="♡ Cakes, cupcakes, cookies..."
+>
+
+<p id="searchMessage"></p>
+
+   
+            <p> Welcome to our products page!at Baked by K,We offer a delicious selection of freshly baked treats made with quality 
+            ingredients and lots of love.whether you are looking for a beautiful birthday cake,elegent wedding cake,tasty cupcake 
+            and other baked cookies or other sweet treats.take a loot at out collection below and discover the perfect dessert for your next celebration.</p>
+            <!--our lovely collection from birthday cakes,cupcakes and cookies-->
+            <h2>Browse Our Collection</h2>
+            <p>Explore our range of freshly baked products.Each item is carefully prepared to ensure the perfect balance of flavour,quality and beautiful presentation.</p>
+            
+            <h2 id="birthdayCakes">Birthday Cakes</h2>
+            <p>Special custom Birthday cakes made just for you.Available in differnt size and flavours to suit your personal needs.</p>
+            <p><strong>Starting price:</strong>from R150 to R350 </p>
+            <p>Custom designs and larger sizes may cost</p>
+            <img src="images/5 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/6 image.jpeg"alt="Baked by B"width="250"> 
+            <img src="images/7 image.jpeg" alt="Baked by B"width="250">
+            
+            <h2 id="cupcakes">Cupcakes</h2>
+            <P>Enjoy our homemade Cupcakes,baked fresh with quality ingredients.they are perfect for gifts,parties or simply treating yourself to something sweet.</p>
+            <p><strong>Starting price:</strong>from R50 to R100 per dozen</p>
+            <img src="images/8 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/9 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/10 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/11 image.jpeg"alt="Baked by B"width="220">
+
+            <h2 id="cookies">Cookies</h2>
+            <p>Our freshly baked cookies are perfect for every occasion,even at home with a warm glass of milk.</p>
+            <p><strong>Starting price:</strong>from R80 per box</p>
+            <img src="images/12 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/13 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/14 image.jpeg"alt="Bake by B"width="250">
+            
+            <h2 id="otherDesserts">Other desserts we offer</h2>
+            <p>At Baked by K, we offer more than just cakes and cupcakes. We also create a variety of delicious desserts that are perfect for any occasion.
+            From rich brownies and colourful cake pops to cheesecakes, dessert cups and other sweet treats, there is something for everyone to enjoy.
+            New desserts are added regularly, so there's always something exciting to try</p>
+            <p><strong>Prices</strong>:From R30 depending on the dessert and the quantity ordered</p>
+            <img src="images/15 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/16 image.jpeg"alt="Baked by B"width="250">
+            <img src="images/17 image.jpeg"alt="Baked by"width="250">
+            <img src="images/18 image.jpeg"alt="Baked by B"width="220">
+
+ <h2>Thank you for visiting</h2>
+            <p>Explore other pages using the navigation bar above to discover our products,specail offers,custom orders and contact information</p>
+            <hr>
+
+<!-- Footer containing the bakery's copyright information -->
+
+            <footer>
+                <p>&copy;2026 Baked by K.All Rights Reserved.</p>
+            </footer>
+            
+        </main>
+
+       <!-- Product Image Lightbox -->
+
+<div id="imageLightbox">
+    <button id="closeLightbox">&times;</button>
+    <img id="lightboxImage" src="" alt="Enlarged bakery product">
+</div>
+ 
+      <!-- Link to the JavaScript file -->
+        <script src="script.js"></script>
+
+     <!-- Baked by K Chatbot -->
+
+<div id="chatbot">
+
+    <button id="chatButton">💬 Chat with us</button>
+
+    <div id="chatWindow">
+
+        <div id="chatHeader">
+            <h3>Baked by K Chat</h3>
+            <button id="closeChat">X</button>
+        </div>
+
+        <div id="chatMessages">
+            <p>Hello! 👋 Welcome to Baked by K.
+            How can we help you today?</p>
+        </div>
+
+        <div id="chatQuestions">
+
+            <button class="chatQuestion">What cakes do you offer?</button>
+
+            <button class="chatQuestion">How do I place an order?</button>
+
+            <button class="chatQuestion">How much do your cakes cost?</button>
+
+            <button class="chatQuestion">How far in advance should I order?</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Floating Hearts Animation -->
+
+<div class="floating-hearts">
+    <span>💕</span>
+    <span>💗</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>💗</span>
+</div>
+
+</body>
+</html>    

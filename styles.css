@@ -1,0 +1,1176 @@
+/* Baked by K website styling */
+
+/* General page colours and font */
+
+body{
+    margin: 0;
+    background-color: white;
+    color:brown;
+    font-family: Georgia,serif;
+}
+
+header{
+    background-color: pink;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1{
+    font-size: 45px;
+    margin: 0;
+}
+
+nav{
+    background-color: pink;
+    text-align:center ;
+    padding: 25px;
+    white-space: normal;
+}
+
+nav a{
+    color:brown;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+nav a:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+main{
+    text-align: center;
+    padding: 25px;
+    border: 2px solid brown;
+    margin: 20px;
+}
+
+.baking{
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+img{
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transform: 0.3s;
+    animation: float 3s infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+img:hover{
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+
+
+
+main h1{
+    font-size: 45px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+main h1:hover{
+    transform: scale(1.05);
+}
+
+main h2{
+    font-size: 38px;
+    color: brown;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+main h2:hover{
+    transform: scale(1.03);
+}
+
+main h3{
+    font-size: 35px;
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+main h3:hover{
+    transform: scale(1.05);
+}
+
+header h1:hover{
+    transform: scale(1.1);
+}
+
+ul{
+    text-align:left;
+    display: inline-block;
+    padding: 0;
+}
+
+main p{
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+
+.home-page .main-picture{
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.home-page .small-picture{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+      /*about*/
+main img{
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+main img:hover{
+    transform: scale(1.05);
+}
+
+main h1{
+    font-size: 45px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+main h2{
+    font-size: 38px;
+    color: brown;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+main p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main ul{
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+nav a{
+    color: brown;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid brown;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+.about-page img{
+    width: 400px;
+    height: 350;
+    object-fit: cover;
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.about-page img:hover{
+    transform: scale(1.08);
+}
+
+.about-page ul{
+    display:block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/*products*/
+
+.products-page img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.products-page img:hover{
+    transform: scale(1.08);
+}
+
+.products-page h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.products-page h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.products-page strong{
+    font-size: 20px;
+}
+
+/*offers*/
+
+.offers-page img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.offers-page .main-offer-picture{
+    width: 500px;
+    height: 650px;
+    object-fit: cover;
+}
+
+.offers-page .small-offer-picture{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.offer-box{
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.offer-box:hover{
+    transform: scale(1.02);
+}
+
+/*custom orders*/
+
+.orders-page img{
+    width: 450px;
+    height:650px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.orders-page .order-main-picture{
+    width: 500px;
+    height:650px;
+    object-fit: cover;
+}
+
+.orders-page img:hover{
+    transform:scale(1.05);
+}
+
+.orders-page ol{
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.orders-page form{
+    border:2px solid brown ;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.orders-page input,
+.orders-page select,
+.orders-page textarea{
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.orders-page imput[type="submit"]{
+    background-color: pink;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.orders-page input[type="submit"]:hover{
+    background-color: brown;
+    color: white;
+    transform: scale(1.05);
+}
+
+/*contact*/
+
+.contact-page img{
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.contact-page img:hover{
+    transform: scale(1.08);
+}
+
+.contact-page h2{
+    font-size: 38px;
+}
+
+.contact-page p{
+    font-size: 20px;
+}
+
+.contact-page p{
+    font-size: 20px;
+}
+
+.contact-page p img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin: 10px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.contact-info{
+    width: 500px;
+    margin: auto;
+}
+
+.contact-info p{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-info img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+.contact-page > img{
+    width: 400px;
+    height: auto;
+}
+
+.contact-page .main-contact-picture{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* EXTRA BORDERS AND SHADOWS */
+
+header {
+    border-bottom: 3px solid brown;
+    box-shadow: 0 4px 8px pink;
+}
+
+main {
+    border: 3px solid brown;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px pink;
+}
+
+footer {
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+    background-color: pink;
+}
+
+/* EXTRA IMAGE ANIMATION */
+
+img {
+    transition: transform 0.4s, box-shadow 0.4s,
+                border-radius 0.4s;
+}
+
+img:hover {
+    transform: scale(1.08) rotate(1deg);
+    box-shadow: 0 8px 15px pink;
+    border-radius: 20px;
+}
+
+ 
+/* EXTRA ANIMATIONS AND BEAUTIFUL EFFECTS */
+
+/* Smooth movement for the whole website */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add a soft shadow to the header */
+header {
+    box-shadow: 0 5px 15px rgba(101, 55, 35, 0.2);
+    transition: 0.4s;
+}
+
+/* Make the bakery name move smoothly */
+header h1 {
+    transition: 0.4s;
+    text-shadow: 2px 2px 4px rgba(101, 55, 35, 0.2);
+}
+
+/* Add a shadow and animation to the navigation */
+nav {
+    box-shadow: 0 5px 12px rgba(101, 55, 35, 0.15);
+}
+
+nav a {
+    transition: 0.4s;
+}
+
+nav a:hover {
+    background-color: brown;
+    border-color: brown;
+    box-shadow: 0 5px 12px rgba(101, 55, 35, 0.3);
+}
+
+/* Make the main section look more attractive */
+main {
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(101, 55, 35, 0.12);
+    transition: 0.4s;
+}
+
+/* Give headings a smooth animation */
+main h1,
+main h2,
+main h3 {
+    transition: 0.4s;
+    text-shadow: 1px 2px 3px rgba(101, 55, 35, 0.12);
+}
+
+/* Extra image effects */
+img {
+    box-shadow: 0 6px 15px rgba(101, 55, 35, 0.18);
+    transition: transform 0.4s, box-shadow 0.4s, border-radius 0.4s;
+}
+
+img:hover {
+    box-shadow: 0 12px 25px rgba(101, 55, 35, 0.35);
+    border-color: pink;
+}
+
+/* Make offer boxes more beautiful */
+.offer-box {
+    background-color: #fff8fa;
+    box-shadow: 0 6px 15px rgba(101, 55, 35, 0.15);
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.offer-box:hover {
+    box-shadow: 0 12px 25px rgba(101, 55, 35, 0.25);
+    border-color: pink;
+}
+
+/* Add a special effect to the order form */
+.orders-page form {
+    background-color: #fff8fa;
+    box-shadow: 0 8px 20px rgba(101, 55, 35, 0.15);
+    transition: 0.4s;
+}
+
+.orders-page form:hover {
+    box-shadow: 0 12px 25px rgba(101, 55, 35, 0.25);
+    border-color: pink;
+}
+
+/* Make form fields glow when selected */
+.orders-page input:focus,
+.orders-page select:focus,
+.orders-page textarea:focus {
+    outline: none;
+    border: 2px solid brown;
+    box-shadow: 0 0 10px rgba(255, 192, 203, 0.9);
+}
+
+/* Give the submit button a nice hover effect */
+.orders-page input[type="submit"] {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.orders-page input[type="submit"]:hover {
+    box-shadow: 0 5px 15px rgba(101, 55, 35, 0.3);
+}
+
+/* Add a floating animation to the baking decoration */
+.baking {
+    animation: bakingFloat 3s ease-in-out infinite;
+}
+
+@keyframes bakingFloat {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Make contact information stand out */
+.contact-info {
+    border: 2px solid pink;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 6px 15px rgba(101, 55, 35, 0.12);
+    transition: 0.4s;
+}
+
+.contact-info:hover {
+    border-color: brown;
+    box-shadow: 0 10px 22px rgba(101, 55, 35, 0.2);
+}
+
+/* Add a decorative border around lists */
+main ul,
+main ol {
+    border-left: 4px solid pink;
+    padding: 10px 15px 10px 25px;
+    border-radius: 8px;
+}
+
+/* Add a soft entrance animation to the main content */
+main {
+    animation: appear 1s ease-in-out;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Give the page a soft bakery-style background */
+body {
+    background-image: linear-gradient(
+        to bottom,
+        white,
+        #fff8fa
+    );
+}
+
+/* Make images and boxes respond smoothly */
+.offer-box,
+.contact-info,
+.orders-page form {
+    transition: transform 0.4s, box-shadow 0.4s, border-color 0.4s;
+}
+
+/* Add a pink underline effect to navigation links */
+nav a {
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: pink;
+    transition: 0.4s;
+    transform: translateX(-50%);
+}
+
+nav a:hover::after {
+    width: 70%;
+}
+
+
+/* EXTRA BAKERY DECORATIONS */
+
+/* Add a decorative border around the whole page */
+body {
+    background-color: #fff8fa;
+    background-image: linear-gradient(to bottom, white, #fff0f5);
+}
+
+/* Make the header more decorative */
+header {
+    background: linear-gradient(to right, pink, #ffe4ec, pink);
+    border-bottom: 4px solid brown;
+}
+
+/* Add a decorative line under the bakery name */
+header h1 {
+    text-shadow: 2px 3px 5px rgba(101, 55, 35, 0.25);
+    letter-spacing: 2px;
+}
+
+/* Make navigation buttons look softer */
+nav a {
+    background-color: #fff0f5;
+    border: 2px solid brown;
+    border-radius: 20px;
+    padding: 10px 16px;
+    box-shadow: 0 4px 8px rgba(101, 55, 35, 0.15);
+}
+
+/* Add colour when hovering over navigation buttons */
+nav a:hover {
+    background-color: brown;
+    color: white;
+    box-shadow: 0 6px 15px rgba(101, 55, 35, 0.3);
+}
+
+/* Decorate the main content */
+main {
+    background: linear-gradient(to bottom, white, #fffafc);
+    border: 3px double brown;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(101, 55, 35, 0.15);
+}
+
+/* Give headings a bakery-style appearance */
+main h1 {
+    text-shadow: 2px 2px 4px pink;
+    border-bottom: 2px solid pink;
+    padding-bottom: 12px;
+}
+
+/* Add decorative backgrounds behind section headings */
+main h2 {
+    background-color: #fff0f5;
+    border: 2px solid pink;
+    border-radius: 15px;
+    padding: 12px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(101, 55, 35, 0.1);
+}
+
+/* Make pictures stand out more */
+main img {
+    background-color: white;
+    border: 4px solid pink;
+    border-radius: 18px;
+    box-shadow: 0 6px 15px rgba(101, 55, 35, 0.2);
+}
+
+/* Give pictures a stronger hover effect */
+main img:hover {
+    transform: scale(1.06) rotate(1deg);
+    border-color: brown;
+    box-shadow: 0 10px 22px rgba(101, 55, 35, 0.3);
+}
+
+/* Make special offers look like cards */
+.offer-box {
+    background: linear-gradient(to bottom right, white, #fff0f5);
+    border: 3px double brown;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+/* Animate special offer cards */
+.offer-box:hover {
+    transform: translateY(-8px) scale(1.02);
+    border-color: pink;
+}
+
+/* Decorate the custom order form */
+.orders-page form {
+    background: linear-gradient(to bottom, white, #fff0f5);
+    border: 3px double brown;
+    border-radius: 20px;
+}
+
+/* Give the contact information a card design */
+.contact-info {
+    background: linear-gradient(to bottom right, white, #fff0f5);
+    border: 3px double brown;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* Decorate the footer */
+footer {
+    background: linear-gradient(to right, pink, #ffe4ec, pink);
+    border-top: 3px solid brown;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Add a decorative line before the footer text */
+footer p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Make lists easier to read */
+main ul,
+main ol {
+    background-color: #fff8fa;
+    border: 2px solid pink;
+    border-radius: 15px;
+    padding: 20px 25px 20px 40px;
+    line-height: 2;
+}
+
+/* Add a small animation to the page */
+@keyframes bakeryEntrance {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+main {
+    animation: bakeryEntrance 0.8s ease-in-out;
+}
+/* Make contact details visible */
+.contact-info p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid pink;
+    overflow-wrap: anywhere;
+}
+
+.contact-info strong {
+    display: inline-block;
+}
+
+.contact-info img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+
+/* Cute bakery product search */
+#productSearch {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px 16px;
+    margin: 10px 0;
+    border: 2px solid #e8a0b4;
+    border-radius: 25px;
+    background-color: #fff8fb;
+    color: #704331;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Search box when clicked */
+#productSearch:focus {
+    border-color: #b76e79;
+    box-shadow: 0 0 10px #f2c4d2;
+}
+
+/* Cute placeholder text */
+#productSearch::placeholder {
+    color: #b58b94;
+    font-style: italic;
+}
+
+/* Search label */
+label[for="productSearch"] {
+    color: #8b4b55;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Search result message */
+#searchMessage {
+    color: #a05262;
+    font-style: italic;
+    font-size: 15px;
+    margin: 8px 0 20px;
+}
+
+/* Cute hover effect on product images */
+.products-page img {
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.products-page img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 5px 15px #e8b5c2;
+}
+
+
+/* Cute Show/Hide Weekly Offers button */
+#offersButton {
+    background-color: #f6c1d0;
+    color: #704331;
+    border: 2px solid #e8a0b4;
+    border-radius: 25px;
+    padding: 12px 22px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #e8b5c2;
+    transition: 0.3s;
+    margin: 10px 0 20px;
+}
+
+/* Button effect when the mouse moves over it */
+#offersButton:hover {
+    background-color: #e8a0b4;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px #d99aab;
+}
+
+/* Button effect when clicked */
+#offersButton:active {
+    transform: scale(0.97);
+}
+
+
+/* Cute Contact Form Send Button */
+#contactForm button {
+    background-color: #f6c1d0;
+    color: #704331;
+    border: 2px solid #e8a0b4;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #e8b5c2;
+    transition: 0.3s;
+    margin: 10px 0 20px;
+}
+
+/* Button hover effect */
+#contactForm button:hover {
+    background-color: #e8a0b4;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px #d99aab;
+}
+
+/* Button click effect */
+#contactForm button:active {
+    transform: scale(0.97);
+}
+/* Adjust the website for tablets and mobile phones */
+
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin: 5px;
+        padding: 8px 10px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 32px;
+    }
+
+    main h2 {
+        font-size: 26px;
+    }
+
+    main p {
+        font-size: 18px;
+    }
+
+    img,
+    .home-page .main-picture,
+    .home-page .small-picture,
+    .about-page img,
+    .products-page img,
+    .offers-page img,
+    .orders-page img,
+    .contact-page > img,
+    .contact-page .main-contact-picture {
+        max-width: 90%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .orders-page form,
+    .contact-info {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .orders-page input,
+    .orders-page select,
+    .orders-page textarea {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+/* Baked by K Chatbot */
+
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#chatButton {
+    background-color: pink;
+    color: brown;
+    border: 2px solid brown;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+#chatWindow {
+    display: none;
+    width: 280px;
+    background-color: white;
+    border: 2px solid brown;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#chatHeader {
+    background-color: pink;
+    color: brown;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chatHeader h3 {
+    margin: 0;
+}
+
+#closeChat {
+    background: none;
+    border: none;
+    color: brown;
+    cursor: pointer;
+}
+
+#chatMessages {
+    padding: 12px;
+    color: brown;
+    font-size: 14px;
+}
+
+#chatQuestions {
+    padding: 10px;
+}
+
+.chatQuestion {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: brown;
+    border: 1px solid pink;
+    border-radius: 8px;
+    padding: 9px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+}
+
+.chatQuestion:hover {
+    background-color: pink;
+}
+
+/* Floating Hearts Animation */
+
+.floating-hearts {
+    position: fixed;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.floating-hearts span {
+    position: absolute;
+    bottom: 0;
+    font-size: 22px;
+    animation: floatHearts 8s linear infinite;
+    opacity: 0;
+}
+
+.floating-hearts span:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.floating-hearts span:nth-child(2) {
+    left: 30%;
+    animation-delay: 2s;
+}
+
+.floating-hearts span:nth-child(3) {
+    left: 50%;
+    animation-delay: 4s;
+}
+
+.floating-hearts span:nth-child(4) {
+    left: 70%;
+    animation-delay: 1s;
+}
+
+.floating-hearts span:nth-child(5) {
+    left: 90%;
+    animation-delay: 3s;
+}
+
+@keyframes floatHearts {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+/* Product Image Lightbox */
+
+#imageLightbox {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+}
+
+#lightboxImage {
+    max-width: 85%;
+    max-height: 85%;
+    border: 4px solid pink;
+    border-radius: 12px;
+}
+
+#closeLightbox {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: pink;
+    color: brown;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#chatWindow {
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatMessages {
+    max-height: 350px;
+    overflow-y: auto;
+    min-height: 0;
+}
